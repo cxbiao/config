@@ -1,0 +1,7 @@
+#服务名+profile命名
+username: dev-config
+mongodb:
+  password: {cipher}abc
+redis:
+   password: {cipher}abc
+

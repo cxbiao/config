@@ -1,0 +1,7 @@
+#服务名+profile命名
+spring:
+  profiles:
+    active: dev
+
+username: default-config
+savePath: /upload
