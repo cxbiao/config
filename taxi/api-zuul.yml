@@ -41,8 +41,8 @@ zuul:
       #路由到zuul本地
       path: /local/**
       url: forward:/local
-    blog:
-       path: /blog/**
+    clog:
+       path: /clog/**
        url: http://localhost:8003/
 
 
