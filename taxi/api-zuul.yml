@@ -44,6 +44,9 @@ zuul:
     clog:
        path: /clog/**
        url: http://localhost:8003/
+    alog:
+       path: /alog/**
+       url: http://localhost:8005/   
 
 
 
