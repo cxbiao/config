@@ -33,7 +33,7 @@ zuul:
        serviceId: micro-web
       #针对某个服务传输指定的headers信息 ，默认是过滤掉 Cookie,Set-Cookie,Authorization 这三个信息的
       #这里置空就是不要过滤掉这三个
-      #sensitive-headers:
+       sensitive-headers:
     micro-order:
        path: /order/**
        serviceId: micro-order
