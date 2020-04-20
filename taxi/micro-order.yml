@@ -1,6 +1,7 @@
 #服务名+profile命名
+# 这里设置profile不起作用，还要项目里面设置才行
 spring:
   profiles:
-     active: dev2
+     active: dev
 username: default-config
 savePath: /upload
